@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    cursor: none; /* 隐藏默认鼠标光标 */
+}
+
+.game-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 0px solid #000;
+    background-color: transparent; /* 设置游戏容器的背景颜色为透明 */
+}
+
+.character {
+    width: 500px; /* 更改宽度为 500px */
+    height: 500px; /* 更改高度为 500px */
+    background-image: url('character_normal.png'); /* 初始人物图片 */
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    transition: background-image 0.2s; /* 添加平滑过渡效果 */
+}
+
+/* 设置自定义鼠标样式 */
+body {
+    cursor: url('hand.png') 250 250, auto; /* 设置自定义鼠标图片，250 250 是鼠标图片的中心偏移值 */
+}
