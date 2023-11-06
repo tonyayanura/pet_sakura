@@ -20,7 +20,6 @@ body {
     background-size: cover;
     position: absolute;
     bottom: 0;
-    transition: background-image 0.2s; /* 添加平滑过渡效果 */
 }
 
 /* 设置自定义鼠标样式 */
